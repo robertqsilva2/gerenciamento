@@ -23,7 +23,7 @@ app.get("/bot", async (req, res) => {
 
 cron.schedule("*/5 * * * *", () => {
   axios
-    .get("https://jade-jolly-pelican.cyclic.app/bot")
+    .get("https://bigjoy.onrender.com/bot")
     .then((response) => {
       console.log("Solicitação de manutenção enviada com sucesso");
     })
